@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1200px) {
+  ul{
+    margin:auto;
+  }
+  #menu{
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /*For iPad*/
+  .home-banner{
+    height:90%;
+}
+  .banner, .about-banner, .contact-banner, .resume-banner, .portfolio-banner{
+    background-color:blue;
+    height:60%;
+  }
+  ul{
+    margin:auto;
+  }
+
+.floated_img{
+  width:40%;
+}
+#menu{
+  display:none;
+}
+
+
+}
+@media only screen and (max-width: 570px) {
+  /*For iPad*/
+nav{
+  height:50px;
+  font-size: 100%;
+}
+
+#home, #about, #portfolio, #resume, #contact{
+  display:none;
+}
+
+#menu{
+display:inline-block;
+Float:right;
+margin:0 20%;
+}
+
+.banner, .about-banner, .contact-banner, .resume-banner, .portfolio-banner{
+    background-color:pink;
+    height:100%;
+  }
+.aboutimage, #profilepic{
+    display:block;
+    width:90%;
+    float:center;
+    margin:0 auto;
+    padding:10%;
+  }
+.aboutinfo{
+    display:block;
+    float:left;
+    width:90%;
+  }
+
+  .img-grid{
+    height:auto;
+    overflow:auto;
+  }
+  ul{
+    margin:auto;
+  }
+  /*HOME*/
+.floated_img{
+    width:47%;
+
+  }
+
+}
